@@ -7,7 +7,6 @@ import {
 
 // Component for image block
 const ImageBlock = ({ value }) => {
-  console.log(value);
   return (
     <div className={imageContainer}>
       <Image
