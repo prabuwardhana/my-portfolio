@@ -5,7 +5,7 @@ import createSchema from "part:@sanity/base/schema-creator";
 import schemaTypes from "all:part:@sanity/base/schema-type";
 
 // We import object and document schemas
-import siteSettings from "./siteSettings";
+// import siteSettings from "./siteSettings";
 import blockContent from "./objects/blockContent";
 import link from "./objects/link";
 import navItem from "./objects/navItem";
@@ -23,7 +23,7 @@ export default createSchema({
   // to the ones provided by any plugins that are installed
   types: schemaTypes.concat([
     // Singleton
-    siteSettings,
+    // siteSettings,
     // The following are document types which will appear
     // in the studio.
     post,
