@@ -23,6 +23,18 @@ export default {
       name: "mainImage",
       title: "Featured image",
       type: "image",
+      fields: [
+        {
+          name: "caption",
+          title: "Caption",
+          type: "string",
+        },
+        {
+          name: "alt",
+          title: "Alternative Text",
+          type: "string",
+        },
+      ],
       options: {
         hotspot: true,
       },
